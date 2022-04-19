@@ -112,9 +112,9 @@ export default class EventHandler {
 				goodbye.toBuffer(),
 				MessageType.image,
 				{
-					caption: `Goodbye *@${
+					caption: `Ara ara, Goodbye *@${
 						event.participants[0].split("@")[0]
-					}* 👋🏻, we're probably not gonna miss you.`,
+					}* 👋🏻, we'll never gonna miss you.`,
 					contextInfo,
 				}
 			));
@@ -131,7 +131,7 @@ export default class EventHandler {
 			);
 		}
 		if (demote) {
-			const text = `Ara Ara looks like *@${
+			const text = `Ara Ara, looks like *@${
 				event.participants[0].split("@")[0]
 			}* got demoted.`;
 			return void this.client.sendMessage(
