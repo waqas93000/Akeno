@@ -21,8 +21,8 @@ export default class Command extends BaseCommand {
     parsedArgs: IParsedArgs
   ): Promise<void> => {
     const user = M.sender.jid;
-    const chitoge =
-      "https://media.tenor.com/videos/571d88ea5d66e7b95cdbc4ef6029dd95/mp4";
+    const akeno =
+      "https://media.tenor.com/videos/5247cadffccf9826bb464b78039f7a90/mp4";
     if (!parsedArgs.joined) {
       const commands = this.handler.commands.keys();
       const categories: { [key: string]: ICommand[] } = {};
@@ -45,9 +45,9 @@ export default class Command extends BaseCommand {
       }
       let text = `👋🏻 (💙ω💙) Konichiwa! *@${
         user.split("@")[0]
-      }*, I'm Chitoge.\n\nMy prefix is - "${
+      }*, I'm Akeno.\n\nMy prefix is - "${
         this.client.config.prefix
-      }"\n\nThe usable commands are listed below.\n\n`;
+      }"\n\nMy commands are listed below.\n\n`;
       const keys = Object.keys(categories);
       for (const key of keys)
         text += `*━━━❰ ${this.client.util.capitalize(
@@ -57,7 +57,7 @@ export default class Command extends BaseCommand {
           .join(", ")}\`\`\`\n\n`;
       return void this.client.sendMessage(
         M.from,
-        { url: chitoge },
+        { url: akeno },
         MessageType.video,
         {
           quoted: M.WAMessage,
