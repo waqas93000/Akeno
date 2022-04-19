@@ -27,7 +27,7 @@ export default class Command extends BaseCommand {
         } else if (percentage < 90) {
             sentence = `\t\t\t\t\t*ShipCent : ${percentage}%* \n\tAmazing! You two will be a good couple 💖 `
         } else {
-            sentence = `\t\t\t\t\t*ShipCent : ${percentage}%* \n\tYou two are fated to be together 💙`
+            sentence = `\t\t\t\t\t*ShipCent : ${percentage}%* \n\t Ara ara, you two are fated to be together 💙`
         }
 
         if (M.quoted?.sender && !M.mentioned.includes(M.quoted.sender)) M.mentioned.push(M.quoted.sender)
