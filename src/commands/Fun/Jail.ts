@@ -11,7 +11,7 @@ export default class Command extends BaseCommand {
 	constructor(client: WAClient, handler: MessageHandler) {
 		super(client, handler, {
 			command: "jail",
-			description: "Who wanna go to jail for being horny?",
+			description: "Who wanna go to horney jail for being horny?",
 			category: "fun",
 			usage: `${client.config.prefix}jail [tag/quote]`,
 			baseXp: 30,
