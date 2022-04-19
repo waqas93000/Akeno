@@ -12,17 +12,17 @@ export default class Command extends BaseCommand {
 			command: "akeno",
 			description: "Displays the info",
 			category: "general",
-			usage: `${client.config.prefix}chitoge`,
+			usage: `${client.config.prefix}akeno`,
 			baseXp: 200,
 		});
 	}
 
 	run = async (M: ISimplifiedMessage): Promise<void> => {
-		const chitoge =
-			"https://media.tenor.com/videos/80f557139bc3a0857f6a705da6990fdc/mp4";
+		const akeno =
+			"https://media.tenor.com/videos/e54b3d54255b0b8a49c28d2fce8bd604/mp4";
 		return void this.client.sendMessage(
 			M.from,
-			{ url: chitoge },
+			{ url: akeno },
 			MessageType.video,
 			{
 				quoted: M.WAMessage,
