@@ -18,16 +18,16 @@ export default class Command extends BaseCommand {
 	}
 
 	run = async (M: ISimplifiedMessage): Promise<void> => {
-		const chitoge =
-			"https://media.tenor.com/videos/8a6408675b1f806290aaac4b939c5a98/mp4";
+		const akeno =
+			"https://media.tenor.com/videos/e54b3d54255b0b8a49c28d2fce8bd604/mp4";
 		return void this.client.sendMessage(
 			M.from,
-			{ url: chitoge },
+			{ url: akeno },
 			MessageType.video,
 			{
 				quoted: M.WAMessage,
 				mimetype: Mimetype.gif,
-				caption: `I don't have time to have a conversation with someone like you. Use something from *${this.client.config.prefix}help* list if you want anything. \n`,
+				caption: `Hi👋, i am *Akeno* nice ti meet ya. Use any command from *${this.client.config.prefix}help* list if you want me to do anything. \n`,
 			}
 		);
 	};
