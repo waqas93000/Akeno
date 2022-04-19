@@ -1,63 +1,61 @@
-[![SWUbanner](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner2-direct.svg)](https://vshymanskyy.github.io/StandWithUkraine)
-
 <div align="center">
-<a href="https://coolwallpapers.me/5045071-anime-blonde-blue-eyes-chitoge-kirisaki-nisekoi.html"><img src="https://wallpaperaccess.com/full/5304871.jpg" alt="chitoge" border="0"></a>
+<a href="https://ibb.co/6P3BsqY"><img src="https://i.ibb.co/2tDNKpq/21-akeno-wallpaper-Images-of-Akeno-Himejima-Wallpaper-industrious-info.png" alt="21-akeno-wallpaper-Images-of-Akeno-Himejima-Wallpaper-industrious-info" border="0"></a>
 
-# **Chitoge : A WhatsApp BOT WITH RICH ANIME FEATURES**
+# **AKENO**
+#### **Advanced WhatsApp Bot With Rich Features Developed by [FantoX](https://github.com/FantoX001)**
 
-[![CodeFactor](https://www.codefactor.io/repository/github/shineiichijo/chitoge/badge)](https://www.codefactor.io/repository/github/shineiichijo/chitoge)
 
-## [![WhatsApp Group](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/I4m8zLPwTme9II9aZWRZJ1) [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/) [![NodeJs](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/en/)
+## [![WhatsApp Group](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/918101187835) [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/) [![NodeJs](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/en/)
 
-> A Fully Modular and Efficient Bot <br>
+<br/>
+A Fully Modular, fast and Efficient Bot. <br>
+<br/>
+    
+    
+<br/>   
+Deply Akeno form Heroku
+<br/>
 
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/FantoX001/Akeno-Whatsapp-Bot)
+<br/><br/>
 
 
 </div><br/>
 <br/>
 
-## ✨ Highlights
+## ✨ Highlights of Akeno Bot
 
 -   Fully Modular Design
 -   Object Oriented
+-   Easy to use
+-   Totally free to use and distributed by [Fantox](https://github.com/FantoX001)
 -   Written in [TypeScript](https://www.typescriptlang.org/)
--   Self-Restoring Auth
 -   Built with [Baileys](https://github.com/adiwajshing/baileys) (The Best
-    WhatsApp Library Out There)
+    WhatsApp Library Out Available There)
 
-## 💻 Deploy/Hosting Guide
+## 💻 How to deploy/host Akeno
 
--   Section Moved to
-    [Chitoge-Guides](https://github.com/ShineiIchijo/Chitoge-Guides/blob/main/README.md)
-
-## 🍥 Features of the Repo
-
--   To view all features, click
-    here➡️[Chitoge_featuresList.md](https://github.com/ShineiIchijo/Chitoge/blob/main/Features.md)
-
-## 💪 Contribution
-
--   Feel free to open issues regarding any problems or if you have any feature requests
--   Make sure to follow the ESLint Rules while editing the code and run
-    `yarn run prettier-format` before opening PRs
-
-##  🚀 Our Amazing Contributors
-
-<a href="https://github.com/ShineiIchijo/Chitoge/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=ShineiIchijo/Chitoge" />
-</a>
+-   Pls check ["Akeno-Guides"](https://github.com/FantoX001/Akeno-Guides/blob/main/README.md) for error free hosting/deployment.
 
 
-### 🟢 WhatsApp Group
+## 🗏 All features of this repository
 
-# [![WhatsApp Group](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/JlGNyRC9TMI07r1Fvt9fTU)
+-   To view all features, click [Features List of Kaoi](https://github.com/PrajjwalDatir/Kaoi/blob/main/Features.md)
 
-## 📄 License
 
-Distributed under the GNU AFFERO GENERAL PUBLIC License. See [LICENSE](/LICENSE)
-for more information.
+## Suggestion and request
 
-## 🎗Help
-Please give this repo a ⭐ if it helped you.
- 
+-   If you have any suggestion then feel free to suggest. I will be happy to reply 😇.
+-   Same goes for any request too 😇.
+
+
+## Other popular whatsapp bots with same functionality:
+
+-   [Bosco Bot](https://github.com/pepesir/Bosco) - Written in JavaScript
+
+-   [Chitoge Bot](https://github.com/ShinNouzen/Chitoge) - Written in TypeScript
+
+-   [Yotsuba Bot](https://github.com/Whatup364/Yotsuba-Bot) - Written in TypeScript
+
+
+## Pls give a ⭐ to this repo if you like my project.
