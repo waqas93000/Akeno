@@ -18,7 +18,7 @@ export default class Command extends BaseCommand {
 
     run = async (M: ISimplifiedMessage, { joined }: IParsedArgs): Promise<void> => {
         const newprefix = joined.trim().split(' ')[0].toLowerCase()
-        if (!newprefix) return void (await M.reply(`Please provide the new prefix.\n\n*Example: ${this.client.config.prefix}setprefix $`))
+        if (!newprefix) return void (await M.reply(`Ara ara, pls provide my new prefix.\n\n*Example: ${this.client.config.prefix}setprefix $`))
         this.client.config.prefix = newprefix
         const text = `✅ *Successfully changed the prefix to ${newprefix}.*`
         M.reply(text)
