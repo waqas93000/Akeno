@@ -2,10 +2,10 @@
     "name": "Akeno",
     "version": "3.0.0",
     "description": "Advanced WhatsApp Bot With Rich Anime Features developed by Fantox.",
-    "main": "dist/chitoge.js",
+    "main": "dist/akeno.js",
     "scripts": {
         "build": "tsc -p .",
-        "start": "node dist/chitoge.js",
+        "start": "node dist/akeno.js",
         "lint": "eslint \"src/**/*.ts\"",
         "prettier-format": "prettier --config .prettierrc \"src/**/*.ts\" --write",
         "postinstall": "yarn run build"
