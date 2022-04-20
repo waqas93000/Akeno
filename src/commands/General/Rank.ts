@@ -57,7 +57,7 @@ export default class Command extends BaseCommand {
 		} else if (exp < 100000) {
 			role = "💎 Supreme";
 		} else {
-			role = "❄️ Mystic";
+			role = "💀 Invincible Demon Lord 💀";
 		}
 		// eslint-disable-next-line @typescript-eslint/no-explicit-any
 		let level: number;
@@ -117,7 +117,7 @@ export default class Command extends BaseCommand {
 			.setDiscriminator("0007")
 			.setBackground("COLOR", "#FFC0CB");
 		rank.build({}).then((rankcard) => {
-			const text = `🏮 *Username: ${username}*\n\n〽️ *Level: ${level}*\n\n⭐ *Exp: ${
+			const text = `🏮 *Username: ${username}*\n\n〽️ *Level: ${level}*\n\n⚡ *Exp: ${
 				exp || 0
 			} / ${required}*\n\n💫 *Role: ${role}*\n\n`;
 			M.reply(
