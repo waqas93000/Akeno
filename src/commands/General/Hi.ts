@@ -27,7 +27,7 @@ export default class Command extends BaseCommand {
 			{
 				quoted: M.WAMessage,
 				mimetype: Mimetype.gif,
-				caption: `Hi👋, i am *Akeno* nice ti meet ya. Use any command from *${this.client.config.prefix}help* list if you want me to do anything. \n`,
+				caption: `Hi👋, i am *Akeno* nice to meet ya. Use any command from *${this.client.config.prefix}help* list if you want me to do anything. \n`,
 			}
 		);
 	};
