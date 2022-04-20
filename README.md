@@ -14,9 +14,9 @@ A Fully Modular, fast and Efficient Bot. <br>
     
 <br/>   
 Deply Akeno form Heroku
-<br/>
 
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/FantoX001/Akeno)
+
+<br>[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/FantoX001/Akeno)
 <br/><br/>
 
 
