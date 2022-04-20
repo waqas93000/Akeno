@@ -16,7 +16,7 @@ A Fully Modular, fast and Efficient Bot. <br>
 Deply Akeno form Heroku
 <br/>
 
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/FantoX001/Akeno-Whatsapp-Bot)
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/FantoX001/Akeno)
 <br/><br/>
 
 
