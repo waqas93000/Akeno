@@ -11,9 +11,9 @@
     "whatsapp-sticker-bot",
     "whatsapp-botto"
   ],
-  "website": "https://github.com/ShinNouzen/Chitoge#readme",
-  "repository": "https://github.com/ShinNouzen/Chitoge.git",
-  "logo": "https://wallpapermemory.com/uploads/711/chitoge-kirisaki-wallpaper-full-hd-323316.jpg",
+  "website": "https://github.com/FantoX001/Akeno#readme",
+  "repository": "https://github.com/FantoX001/Akeno.git",
+  "logo": "https://wallpapercave.com/wp/wp9428151.jpg",
   "success_url": "/",
   "env": {
     "PREFIX": {
