@@ -13,13 +13,13 @@ export default class Command extends BaseCommand {
 			description: "Displays the info",
 			category: "general",
 			usage: `${client.config.prefix}akeno`,
-			baseXp: 200,
+			baseXp: 500,
 		});
 	}
 
 	run = async (M: ISimplifiedMessage): Promise<void> => {
 		const akeno =
-			"https://media.tenor.com/videos/e54b3d54255b0b8a49c28d2fce8bd604/mp4";
+			"https://media.tenor.com/videos/5247cadffccf9826bb464b78039f7a90/mp4";
 		return void this.client.sendMessage(
 			M.from,
 			{ url: akeno },
