@@ -29,12 +29,12 @@ export default class Command extends BaseCommand {
       await this.client.groupMetadata(M.from)
     ).participants;
     const stickers = [
-      "https://wallpapercave.com/wp/wp9428151.jpg",
-			"https://wallpapercave.com/wp/wp9428155.png",
-			"https://wallpapercave.com/wp/wp7932407.jpg",
-			"https://wallpapercave.com/wp/wp7932387.jpg",
-			"https://wallpapercave.com/wp/wp5145520.jpg",
-			"https://wallpapercave.com/wp/wp8544651.jpg",
+      		"https://wallpapercave.com/wp/wp9428151.jpg",
+		"https://wallpapercave.com/wp/wp9428155.png",
+		"https://wallpapercave.com/wp/wp7932407.jpg",
+		"https://wallpapercave.com/wp/wp7932387.jpg",
+		"https://wallpapercave.com/wp/wp5145520.jpg",
+		"https://wallpapercave.com/wp/wp8544651.jpg",
     ];
     const random = stickers[Math.floor(Math.random() * stickers.length)];
     if (flags.includes("--s") || flags.includes("--sticker")) {
